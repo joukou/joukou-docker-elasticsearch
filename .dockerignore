@@ -1,0 +1,6 @@
+.circle
+.dockercfg.template
+.dockerignore
+.git
+circle.yml
+README.md
