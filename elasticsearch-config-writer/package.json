@@ -1,0 +1,30 @@
+{
+  "name": "elasticsearch-config-writer",
+  "version": "0.0.4",
+  "description": "Writes an ElasticSearch config based on environment variables",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joukou/joukou-docker-elasticsearch.git"
+  },
+  "author": "Isaac Johnston <isaac.johnston@joukou.com> (https://joukou.com/)",
+  "license": "Proprietary",
+  "bugs": {
+    "url": "https://github.com/joukou/joukou-docker-elasticsearch/issues"
+  },
+  "homepage": "https://github.com/joukou/joukou-docker-elasticsearch",
+  "dependencies": {
+    "js-yaml": "3.1.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.7.1",
+    "gulp": "3.8.6",
+    "gulp-clean": "0.3.1",
+    "gulp-coffee": "2.1.1",
+    "gulp-load-plugins": "0.5.3",
+    "gulp-util": "2.2.20"
+  }
+}

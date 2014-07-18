@@ -1,0 +1,21 @@
+cluster:
+  name: dev.joukou.com
+index:
+  number_of_shards: 5
+  number_of_replicas: 1
+path:
+  conf: /Users/isaac/src/joukou/joukou-docker-elasticsearch/elasticsearch-config-writer
+  data: /var/lib/elasticsearch
+  work: /tmp
+  logs: /var/log/elasticsearch
+plugin:
+  mandatory: "mapper-attachments,lang-groovy,river-rabbitmq,lang-javascript"
+bootstrap:
+  mlockall: false
+transport:
+  tcp:
+    port: 9300
+    compress: false
+http:
+  port: 9200
+  max_content_length: 100mb
