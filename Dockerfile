@@ -43,7 +43,7 @@ RUN /usr/share/elasticsearch/bin/plugin -i \
   elasticsearch/marvel/latest
 
 # Install ElasticSearch config writer
-ADD elasticsearch-config-writer /opt/
+ADD elasticsearch-config-writer /opt/elasticsearch-config-writer
 WORKDIR /opt/elasticsearch-config-writer
 RUN npm install
 RUN ./node_modules/.bin/gulp
